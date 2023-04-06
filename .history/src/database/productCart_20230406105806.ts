@@ -1,0 +1,65 @@
+import { ProductType } from "../@types/reducer/shoppingCart";
+
+const productsCart: ProductType[] = [
+  {
+    id: 1,
+    name: "Nike latest T-Shirt",
+    href: "#",
+    color: "white",
+    price: 50070.0,
+    quantity: 1,
+    image: "/white.png",
+    packagePrice: 0,
+
+    color: "white",
+    href: "#",
+    id: 3,
+    image: "/iphone.jpg",
+    name: "Iphone 14 pro max",
+    packagePrice: 0,
+    price: 900000.0,
+    quantity: 1,
+  },
+  {
+    id: 2,
+    name: "Black Adidas T-shirt",
+    href: "#",
+    color: "black",
+    price: 31000,
+    quantity: 1,
+    image: "/blackshirt.png",
+    packagePrice: 0,
+  },
+  {
+    color: "black",
+    href: "#",
+    id: 3,
+    image: "/iphone.jpg",
+    name: "Iphone 14 pro max",
+    packagePrice: 0,
+    price: 900000.0,
+    quantity: 1,
+  },
+  {
+    id: 4,
+    name: "Americano Lono locumotion cream",
+    href: "#",
+    color: "",
+    price: 32000.0,
+    quantity: 1,
+    image: "/cream.jpg",
+    packagePrice: 0,
+  },
+  {
+    id: 5,
+    name: "Canoe 60.7 mega pixel",
+    href: "#",
+    color: "",
+    price: 302000.0,
+    quantity: 1,
+    image: "/camera.jpg",
+    packagePrice: 0,
+  },
+];
+
+export default productsCart;
