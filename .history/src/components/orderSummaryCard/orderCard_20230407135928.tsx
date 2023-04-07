@@ -41,4 +41,4 @@ function OrderCard({
   );
 }
 
-export default OrderCard;
+export default OrderSummaryCard;

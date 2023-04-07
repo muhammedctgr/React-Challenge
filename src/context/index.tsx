@@ -3,7 +3,7 @@ import { InitialState } from "../@types";
 import {
   shoppingCartReducer,
   ShoppingCartIntialState,
-} from "./reducers/shoppingCart";
+} from "./shoppingCart";
 
 interface Props {
   children: ReactNode;

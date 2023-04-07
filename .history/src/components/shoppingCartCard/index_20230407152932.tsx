@@ -7,7 +7,7 @@ import Image from 'next/image';
 interface ShoppingCartCardProps extends ProductType {
   onClickRemove?: () => void;
   onClickIncrease?: () => void;
-  onClickDecrease?: () => void;
+  onClickDescrease?: () => void;
 }
 function ShoppingCartCard({
   image,
@@ -15,7 +15,7 @@ function ShoppingCartCard({
   name,
   quantity,
   color,
-  onClickDecrease,
+  onClickDescrease,
   onClickRemove,
   onClickIncrease,
   packagePrice,

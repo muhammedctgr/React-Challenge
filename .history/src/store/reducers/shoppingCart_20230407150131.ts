@@ -12,12 +12,17 @@ export const ShoppingCartIntialState: ShoppingCartIntialStateType = {
   tax: 0,
 };
 
-const TotalProductPrice = (products: ProductType[]) => {
-  let num = 0;
+
+
+const TotalProductPrice = (products: ProductType[]): number => {
+  let totalPrice = 0;
+  
+  // Loop through each product and add its packagePrice to the total price
   products.forEach((product) => {
-    num += product.packagePrice;
+    totalPrice += product.packagePrice;
   });
-  return num;
+  
+  return totalPrice;
 };
 
 const fetchPRODUCT = (

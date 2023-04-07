@@ -15,7 +15,7 @@ function ShoppingCartCard({
   name,
   quantity,
   color,
-  onClickDecrease,
+  onClickDescrease,
   onClickRemove,
   onClickIncrease,
   packagePrice,
@@ -46,7 +46,7 @@ function ShoppingCartCard({
           <div className="flex items-center">
             <Button
               disabled={quantity < 1}
-              onClick={() => onClickDecrease && onClickDecrease()}
+              onClick={() => onClickDescrease && onClickDescrease()}
               className="h-[20px] w-[20px] rounded bg-red-600 py-0 hover:bg-red-700 disabled:bg-gray-200"
             >
               <MinusIcon className="w-3 text-white" />

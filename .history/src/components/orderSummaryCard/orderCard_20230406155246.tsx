@@ -6,7 +6,7 @@ interface OrderSummaryCard {
   shippingEstimate: number;
   subTotal: number;
 }
-function OrderCard({
+function OrderSummaryCard({
   taxEstimate,
   shippingEstimate,
   subTotal,
@@ -41,4 +41,4 @@ function OrderCard({
   );
 }
 
-export default OrderCard;
+export default OrderSummaryCard;
